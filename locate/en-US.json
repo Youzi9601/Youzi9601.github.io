@@ -1,0 +1,135 @@
+{
+    "lang-code": "en-US",
+    "lang": "English(United States)",
+    "app": {
+        "alert": {
+            "noInternet": {
+                "title": "No Internet",
+                "body": "Please check your internet connection and refresh the page."
+            },
+            "unsupportedLang": {
+                "title": "Unsupported Language",
+                "body": "Sorry, this language is currently not supported."
+            },
+            "unknownErrorMessages": {
+                "title": "Unknown Error",
+                "body": "An unknown error occurred, please try again later."
+            }
+        }
+    },
+    "header": {
+        "nav": {
+            "title": "{id}",
+            "language": "Language",
+            "theme": {
+                "toggle": "Toggle Theme",
+                "light": "Light",
+                "dark": "Dark",
+                "auto": "Auto"
+            }
+        }
+    },
+    "home": {
+        "meta": {
+            "title": "Home"
+        },
+        "nav": {
+            "about": "About",
+            "blog": "Blog",
+            "contact": "Contact"
+        },
+        "title": "{id}'s Personal Website",
+        "description": "{name}'s personal information website, showcasing personal works, blog, community, and related information.",
+        "about": "This is a website for showcasing personal works, sharing technical articles, and community interaction.",
+        "scrollDown": "Scroll Down",
+        "aboutMe": {
+            "title": "About Me",
+            "intro": "Hello! I am {name}, a software engineer passionate about technology and innovation. I am proficient in using tools, learning new knowledge on the internet, and focusing on web development and application design. I enjoy learning new technologies and applying them to practical projects, striving to provide efficient and reliable solutions.",
+            "experience": "Throughout my career, I have participated in multiple projects, from requirement analysis, system design to final implementation, accumulating a lot of experience. I believe that teamwork and continuous learning are the keys to success, and I always maintain a passion and curiosity for technology.",
+            "welcome": "Welcome to browse my personal website to learn more about me. If you have any questions or cooperation intentions, please feel free to contact me.",
+            "moreInfo": "More Info"
+        }
+    },
+    "about": {
+        "meta": {
+            "title": "About"
+        },
+        "nav": {
+            "home": "Home",
+            "blog": "Blog",
+            "contact": "Contact"
+        },
+        "title": "About {id}",
+        "description": "{name}'s personal information website, showcasing personal works, technical articles, and community interaction.",
+        "intro": "This is a website for showcasing personal works, sharing technical articles, and community interaction.",
+        "skills": {
+            "title": "Skills",
+            "description": "The following are the skills and tools I am proficient in, including web development, programming, database management, etc."
+        },
+        "experience": {
+            "title": "Experience",
+            "description": "The following are the projects and work experiences I have participated in, including requirement analysis, system design, programming, etc."
+        },
+        "education": {
+            "title": "Education",
+            "description": "The following are the degrees and certificates I have obtained, including university degrees, professional certifications, etc."
+        }
+    },
+    "blog": {
+        "meta": {
+            "title": "Blog"
+        },
+        "nav": {
+            "home": "Home",
+            "about": "About",
+            "contact": "Contact"
+        },
+        "title": "Blog",
+        "description": "Sharing technical articles, project insights, and life reflections."
+    },
+    "contact": {
+        "meta": {
+            "title": "Contact"
+        },
+        "nav": {
+            "home": "Home",
+            "about": "About",
+            "blog": "Blog"
+        },
+        "title": "Contact {id}",
+        "description": "Feel free to contact {name} through the following methods.",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "send": "Send Message"
+        }
+    },
+    "404": {
+        "meta": {
+            "title": "404 Page Not Found"
+        },
+        "nav": {
+            "home": "Home",
+            "about": "About",
+            "blog": "Blog",
+            "contact": "Contact"
+        }
+    },
+    "footer": {
+        "title": "{id}",
+        "me": "A pomelo, not edible.",
+        "by": "{name} 2025/01/02",
+        "buildOn": "Built with Bootstrap & Vue, deployed using Github Pages.",
+        "copyright": "All rights reserved © {year} {owner}",
+        "navs": "Navigation",
+        "projects": "Projects",
+        "community": "Community",
+        "home": "Home",
+        "about": "About",
+        "blog": "Blog",
+        "contact": "Contact",
+        "noRepo": "Not listed yet",
+        "discord": "Discord Server"
+    }
+}

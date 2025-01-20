@@ -1,0 +1,135 @@
+{
+    "lang-code": "zh-CN",
+    "lang": "简体中文(中国)",
+    "app": {
+        "alert": {
+            "noInternet": {
+                "title": "没有网络",
+                "body": "请检查您的网络连接，并刷新页面。"
+            },
+            "unsupportedLang": {
+                "title": "不支持的语言",
+                "body": "抱歉，目前不支持此语言。"
+            },
+            "unknownErrorMessages": {
+                "title": "未知错误",
+                "body": "发生未知错误，请稍后再试。"
+            }
+        }
+    },
+    "header": {
+        "nav": {
+            "title": "{id}",
+            "language": "显示语言",
+            "theme": {
+                "toggle": "切换主题",
+                "light": "浅色",
+                "dark": "深色",
+                "auto": "自动"
+            }
+        }
+    },
+    "home": {
+        "meta": {
+            "title": "首页"
+        },
+        "nav": {
+            "about": "关于",
+            "blog": "博客",
+            "contact": "联系"
+        },
+        "title": "{id} 的个人网页",
+        "description": "{name} 的个人信息网站，展示个人作品、博客、社区等相关信息。",
+        "about": "这是一个关于展示个人作品、分享技术文章和社区互动的网站。",
+        "scrollDown": "向下滚动",
+        "aboutMe": {
+            "title": "关于我",
+            "intro": "您好！我是{name}，一名热爱技术与创新的软件工程师。我善于使用工具、学习网络新知，专注于网页开发和应用程序设计。我喜欢学习新技术并将其应用于实际项目中，致力于提供高效且可靠的解决方案。",
+            "experience": "在我的职业生涯中，我曾参与过多个项目制作，从需求分析、系统设计到最终实施，积累了许多的经验。我相信团队合作和持续学习是成功的关键，并且我始终保持着对技术的热情和好奇心。",
+            "welcome": "欢迎浏览我的个人网页，了解更多关于我的信息。如果您有任何问题或合作意向，请随时联系我。",
+            "moreInfo": "更多信息"
+        }
+    },
+    "about": {
+        "meta": {
+            "title": "关于"
+        },
+        "nav": {
+            "home": "首页",
+            "blog": "博客",
+            "contact": "联系"
+        },
+        "title": "关于 {id}",
+        "description": "{name} 的个人信息网站，展示个人作品、技术文章和社区互动。",
+        "intro": "这是一个关于展示个人作品、分享技术文章和社区互动的网站。",
+        "skills": {
+            "title": "技能",
+            "description": "以下是我熟练掌握的技能和工具，包括网页开发、程序设计、数据库管理等。"
+        },
+        "experience": {
+            "title": "经验",
+            "description": "以下是我参与过的项目和工作经验，包括需求分析、系统设计、程序开发等。"
+        },
+        "education": {
+            "title": "学历",
+            "description": "以下是我取得的学位和证书，包括大学学历、专业认证等。"
+        }
+    },
+    "blog": {
+        "meta": {
+            "title": "博客"
+        },
+        "nav": {
+            "home": "首页",
+            "about": "关于",
+            "contact": "联系"
+        },
+        "title": "博客",
+        "description": "分享技术文章、项目心得和生活感悟。"
+    },
+    "contact": {
+        "meta": {
+            "title": "联系"
+        },
+        "nav": {
+            "home": "首页",
+            "about": "关于",
+            "blog": "博客"
+        },
+        "title": "联系 {id}",
+        "description": "欢迎与{name}联系，您可以通过以下方式与我取得联系。",
+        "form": {
+            "name": "姓名",
+            "email": "电子邮件",
+            "message": "信息",
+            "send": "发送信息"
+        }
+    },
+    "404": {
+        "meta": {
+            "title": "404 找不到页面"
+        },
+        "nav": {
+            "home": "首页",
+            "about": "关于",
+            "blog": "博客",
+            "contact": "联系"
+        }
+    },
+    "footer": {
+        "title": "{id}",
+        "me": "一个柚子，不可食用。",
+        "by": "{name} 2025/01/02",
+        "buildOn": "基于 Bootstrap & Vue 构建，使用 Github Pages 部署。",
+        "copyright": "版权所有 © {year} {owner}",
+        "navs": "导航",
+        "projects": "项目",
+        "community": "社区",
+        "home": "首页",
+        "about": "关于",
+        "blog": "博客",
+        "contact": "联系",
+        "noRepo": "尚未列出",
+        "discord": "Discord 服务器"
+    }
+}

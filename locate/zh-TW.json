@@ -1,0 +1,135 @@
+{
+    "lang-code": "zh-TW",
+    "lang": "繁體中文(台灣)",
+    "app": {
+        "alert": {
+            "noInternet": {
+                "title": "沒有網際網路",
+                "body": "請檢查您的網路連線，並重新整理頁面。"
+            },
+            "unsupportedLang": {
+                "title": "不支援的語言",
+                "body": "抱歉，目前不支援此語言。"
+            },
+            "unknownErrorMessages": {
+                "title": "未知錯誤",
+                "body": "發生未知錯誤，請稍後再試。"
+            }
+        }
+    },
+    "header": {
+        "nav": {
+            "title": "{id}",
+            "language": "顯示語言",
+            "theme": {
+                "toggle": "切換主題",
+                "light": "淺色",
+                "dark": "深色",
+                "auto": "自動"
+            }
+        }
+    },
+    "home": {
+        "meta": {
+            "title": "首頁"
+        },
+        "nav": {
+            "about": "關於",
+            "blog": "部落格",
+            "contact": "聯絡"
+        },
+        "title": "{id} 的個人網頁",
+        "description": "{name} 的個人資訊網站，展示個人作品、部落格、社群等相關訊息。",
+        "about": "這是一個關於展示個人作品、分享技術文章和社群互動的網站。",
+        "scrollDown": "向下滾動",
+        "aboutMe": {
+            "title": "關於我",
+            "intro": "您好！我是{name}，一名熱愛技術與創新的軟體工程師。我善於使用工具、學習網路新知，專注於網頁開發和應用程式設計。我喜歡學習新技術並將其應用於實際專案中，致力於提供高效且可靠的解決方案。",
+            "experience": "在我的生涯中，我曾參與過多個專案製作，從需求分析、系統設計到最終實施，積累了許多的經驗。我相信團隊合作和持續學習是成功的關鍵，並且我始終保持著對技術的熱情和好奇心。",
+            "welcome": "歡迎瀏覽我的個人網頁，了解更多關於我的資訊。如果您有任何問題或合作意向，請隨時聯絡我。",
+            "moreInfo": "更多資訊"
+        }
+    },
+    "about": {
+        "meta": {
+            "title": "關於"
+        },
+        "nav": {
+            "home": "首頁",
+            "blog": "部落格",
+            "contact": "聯絡"
+        },
+        "title": "關於 {id}",
+        "description": "{name} 的個人資訊網站，展示個人作品、技術文章和社群互動。",
+        "intro": "這是一個關於展示個人作品、分享技術文章和社群互動的網站。",
+        "skills": {
+            "title": "技能",
+            "description": "以下是我熟練掌握的技能和工具，包括網頁開發、程式設計、資料庫管理等。"
+        },
+        "experience": {
+            "title": "經驗",
+            "description": "以下是我參與過的專案和工作經驗，包括需求分析、系統設計、程式開發等。"
+        },
+        "education": {
+            "title": "學歷",
+            "description": "以下是我取得的學位和證書，包括大學學歷、專業認證等。"
+        }
+    },
+    "blog": {
+        "title": "部落格",
+        "description": "分享技術文章、專案心得和生活感悟。",
+        "meta": {
+            "title": "部落格"
+        },
+        "nav": {
+            "home": "首頁",
+            "about": "關於",
+            "contact": "聯絡"
+        }
+    },
+    "contact": {
+        "meta": {
+            "title": "聯絡"
+        },
+        "nav": {
+            "home": "首頁",
+            "about": "關於",
+            "blog": "部落格"
+        },
+        "title": "聯絡 {id}",
+        "description": "歡迎與{name}聯絡，您可以通過以下方式與我取得聯繫。",
+        "form": {
+            "name": "姓名",
+            "email": "電子郵件",
+            "message": "訊息",
+            "send": "發送訊息"
+        }
+    },
+    "404": {
+        "meta": {
+            "title": "404 找不到頁面"
+        },
+        "nav": {
+            "home": "首頁",
+            "about": "關於",
+            "blog": "部落格",
+            "contact": "聯絡"
+        }
+    },
+    "footer": {
+        "title": "{id}",
+        "me": "一個柚子，不可食用。",
+        "by": "{name} 2025/01/02",
+        "buildOn": "基於 Bootstrap & Vue 構建，使用 Github Pages 部署。",
+        "copyright": "版權所有 © {year} {owner}",
+        "navs": "導航",
+        "projects": "專案",
+        "community": "社群",
+        "home": "首頁",
+        "about": "關於",
+        "blog": "部落格",
+        "contact": "聯絡",
+        "noRepo": "尚未列出",
+        "discord": "Discord 伺服器"
+    }
+}
