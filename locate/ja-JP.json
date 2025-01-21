@@ -116,6 +116,22 @@
             "contact": "連絡"
         }
     },
+    "status": {
+        "meta": {
+            "title": "サービス状態"
+        },
+        "loading": "読み込み中...",
+        "title": "サービス状態",
+        "delay": "遅延",
+        "statusSummary": "状態概要",
+        "noData": "データなし",
+        "up": "オンライン",
+        "down": "オフライン",
+        "warn": "不安定",
+        "date": "日付",
+        "totalAverageResponseTime": "総平均応答時間",
+        "location": "位置"
+    },
     "footer": {
         "title": "{id}",
         "me": "食べられないポメロ。",

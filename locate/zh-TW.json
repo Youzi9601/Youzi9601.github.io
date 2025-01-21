@@ -132,5 +132,21 @@
         "statusPage": "狀態頁面",
         "noRepo": "尚未列出",
         "discord": "Discord 伺服器"
+    },
+    "status": {
+        "meta": {
+            "title": "服務狀態"
+        },
+        "loading": "載入中...",
+        "title": "服務狀態",
+        "delay": "延遲",
+        "statusSummary": "狀態摘要",
+        "noData": "無資料",
+        "up": "上線",
+        "down": "離線",
+        "warn": "不穩定",
+        "date": "日期",
+        "totalAverageResponseTime": "總平均延遲",
+        "location": "位置"
     }
 }

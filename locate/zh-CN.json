@@ -116,6 +116,22 @@
             "contact": "联系"
         }
     },
+    "status": {
+        "meta": {
+            "title": "服务状态"
+        },
+        "loading": "加载中...",
+        "title": "服务状态",
+        "delay": "延迟",
+        "statusSummary": "状态摘要",
+        "noData": "无数据",
+        "up": "在线",
+        "down": "离线",
+        "warn": "不稳定",
+        "date": "日期",
+        "totalAverageResponseTime": "总平均延迟",
+        "location": "位置"
+    },
     "footer": {
         "title": "{id}",
         "me": "一个柚子，不可食用。",

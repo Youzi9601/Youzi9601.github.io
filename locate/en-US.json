@@ -132,5 +132,21 @@
         "statusPage": "Status Page",
         "noRepo": "Not listed yet",
         "discord": "Discord Server"
+    },
+    "status": {
+        "meta": {
+            "title": "Service Status"
+        },
+        "loading": "Loading...",
+        "title": "Service Status",
+        "delay": "Delay",
+        "statusSummary": "Status Summary",
+        "noData": "No Data",
+        "up": "Online",
+        "down": "Offline",
+        "warn": "Unstable",
+        "date": "Date",
+        "totalAverageResponseTime": "Total Average Response Time",
+        "location": "Location"
     }
 }

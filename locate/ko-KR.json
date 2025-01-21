@@ -116,6 +116,22 @@
             "contact": "연락"
         }
     },
+    "status": {
+        "meta": {
+            "title": "서비스 상태"
+        },
+        "loading": "로딩 중...",
+        "title": "서비스 상태",
+        "delay": "지연",
+        "statusSummary": "상태 요약",
+        "noData": "데이터 없음",
+        "up": "온라인",
+        "down": "오프라인",
+        "warn": "불안정",
+        "date": "날짜",
+        "totalAverageResponseTime": "총 평균 응답 시간",
+        "location": "위치"
+    },
     "footer": {
         "title": "{id}",
         "me": "먹을 수 없는 포멜로.",
