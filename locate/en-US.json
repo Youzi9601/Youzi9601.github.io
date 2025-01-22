@@ -85,7 +85,22 @@
             "contact": "Contact"
         },
         "title": "Blog",
-        "description": "Sharing technical articles, project insights, and life reflections."
+        "description": "Sharing technical articles, project insights, and life reflections.",
+        "filter": {
+            "category": "Category",
+            "author": "Author",
+            "allCategories": "All Categories",
+            "allAuthors": "All Authors"
+        },
+        "readMore": "Read More",
+        "previousPage": "Previous Page",
+        "nextPage": "Next Page",
+        "endOfList": "End of List",
+        "back": "Back",
+        "loading": "Loading...",
+        "publishedAt": "Published At",
+        "updatedAt": "Updated At",
+        "postNotFound": "Post Not Found"
     },
     "contact": {
         "meta": {

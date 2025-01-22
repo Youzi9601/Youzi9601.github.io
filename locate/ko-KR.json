@@ -85,7 +85,22 @@
             "contact": "연락"
         },
         "title": "블로그",
-        "description": "기술 기사, 프로젝트 소감 및 생활 감상을 공유합니다."
+        "description": "기술 기사, 프로젝트 소감 및 생활 감상을 공유합니다.",
+        "filter": {
+            "category": "카테고리",
+            "author": "저자",
+            "allCategories": "모든 카테고리",
+            "allAuthors": "모든 저자"
+        },
+        "readMore": "더 읽기",
+        "previousPage": "이전 페이지",
+        "nextPage": "다음 페이지",
+        "endOfList": "끝까지 왔습니다",
+        "back": "돌아가기",
+        "loading": "로딩 중...",
+        "publishedAt": "게시일",
+        "updatedAt": "업데이트 날짜",
+        "postNotFound": "게시물을 찾을 수 없습니다"
     },
     "contact": {
         "meta": {

@@ -85,7 +85,22 @@
             "contact": "連絡"
         },
         "title": "ブログ",
-        "description": "技術記事、プロジェクトの感想、生活の感想を共有します。"
+        "description": "技術記事、プロジェクトの感想、生活の感想を共有します。",
+        "filter": {
+            "category": "カテゴリー",
+            "author": "著者",
+            "allCategories": "すべてのカテゴリー",
+            "allAuthors": "すべての著者"
+        },
+        "readMore": "もっと読む",
+        "previousPage": "前のページ",
+        "nextPage": "次のページ",
+        "endOfList": "リストの終わり",
+        "back": "戻る",
+        "loading": "読み込み中...",
+        "publishedAt": "公開日",
+        "updatedAt": "更新日",
+        "postNotFound": "記事が見つかりません"
     },
     "contact": {
         "meta": {

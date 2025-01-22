@@ -85,7 +85,22 @@
             "home": "首頁",
             "about": "關於",
             "contact": "聯絡"
-        }
+        },
+        "filter": {
+            "category": "分類",
+            "author": "作者",
+            "allCategories": "所有分類",
+            "allAuthors": "所有作者"
+        },
+        "readMore": "閱讀更多",
+        "previousPage": "上一頁",
+        "nextPage": "下一頁",
+        "endOfList": "已經到底了",
+        "back": "返回",
+        "loading": "讀取中...",
+        "publishedAt": "發布時間",
+        "updatedAt": "更新時間",
+        "postNotFound": "找不到文章"
     },
     "contact": {
         "meta": {
