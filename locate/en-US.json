@@ -102,6 +102,11 @@
         "updatedAt": "Updated At",
         "postNotFound": "Post Not Found"
     },
+    "blogPost": {
+        "meta": {
+            "title": "Blog"
+        }
+    },
     "contact": {
         "meta": {
             "title": "Contact"

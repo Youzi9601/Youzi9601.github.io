@@ -102,6 +102,11 @@
         "updatedAt": "更新日",
         "postNotFound": "記事が見つかりません"
     },
+    "blogPost": {
+        "meta": {
+            "title": "ブログ"
+        }
+    },
     "contact": {
         "meta": {
             "title": "連絡"

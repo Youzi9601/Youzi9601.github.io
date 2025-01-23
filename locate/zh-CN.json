@@ -102,6 +102,11 @@
         "updatedAt": "更新时间",
         "postNotFound": "找不到文章"
     },
+    "blogPost": {
+        "meta": {
+            "title": "博客"
+        }
+    },
     "contact": {
         "meta": {
             "title": "联系"
