@@ -1,0 +1,1 @@
+import{_ as s,c as n,p as o,l as r,m as a,z as c,o as _}from"./index-D6ScQd6R.js";const i={},l={class:"h3"};function d(m,e){const t=c("router-link");return _(),n("div",l,[e[1]||(e[1]=o("back to ")),r(t,{to:"/"},{default:a(()=>e[0]||(e[0]=[o("home")])),_:1})])}const p=s(i,[["render",d]]);export{p as default};
