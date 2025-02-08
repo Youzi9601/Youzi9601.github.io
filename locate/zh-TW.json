@@ -34,11 +34,12 @@
             "title": "首頁"
         },
         "nav": {
+            "youzi-app": "前往首頁",
             "about": "關於",
             "blog": "部落格",
             "contact": "聯絡"
         },
-        "title": "{id} 的個人網頁",
+        "title": "{id} 的Github專頁",
         "description": "{name} 的個人資訊網站，展示個人作品、部落格、社群等相關訊息。",
         "about": "這是一個關於展示個人作品、分享技術文章和社群互動的網站。",
         "scrollDown": "向下滾動",

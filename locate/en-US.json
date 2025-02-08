@@ -36,9 +36,10 @@
         "nav": {
             "about": "About",
             "blog": "Blog",
-            "contact": "Contact"
+            "contact": "Contact",
+            "youzi-app": "Go to Home"
         },
-        "title": "{id}'s Personal Website",
+        "title": "{id}'s Github Page",
         "description": "{name}'s personal information website, showcasing personal works, blog, community, and related information.",
         "about": "This is a website for showcasing personal works, sharing technical articles, and community interaction.",
         "scrollDown": "Scroll Down",

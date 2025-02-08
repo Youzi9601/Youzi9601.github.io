@@ -1,0 +1,1 @@
+import{_ as r,c as s,a as o,b as n,w as a,r as c,o as _}from"./index-CYa4P23g.js";const i={},d={class:"h3"};function l(f,e){const t=c("router-link");return _(),s("div",d,[e[1]||(e[1]=o("back to ")),n(t,{to:"/"},{default:a(()=>e[0]||(e[0]=[o("home")])),_:1})])}const u=r(i,[["render",l]]);export{u as default};
