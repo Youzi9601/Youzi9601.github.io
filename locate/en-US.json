@@ -37,7 +37,7 @@
             "about": "About",
             "blog": "Blog",
             "contact": "Contact",
-            "youzi-app": "Go to Home"
+            "youzi-app": "Go to Youzi's Web App"
         },
         "title": "{id}'s Github Page",
         "description": "{name}'s personal information website, showcasing personal works, blog, community, and related information.",

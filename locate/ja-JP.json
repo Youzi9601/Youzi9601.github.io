@@ -37,7 +37,7 @@
             "about": "概要",
             "blog": "ブログ",
             "contact": "連絡",
-            "youzi-app": "ホームへ"
+            "youzi-app": "Youziのウェブアプリへ移動"
         },
         "title": "{id} のGithubページ",
         "description": "{name} の個人情報ウェブサイトで、個人作品、ブログ、コミュニティなどの関連情報を紹介します。",

@@ -37,7 +37,7 @@
             "about": "소개",
             "blog": "블로그",
             "contact": "연락",
-            "youzi-app": "홈으로 이동"
+            "youzi-app": "Youzi의 웹 앱으로 이동"
         },
         "title": "{id}의 Github 페이지",
         "description": "{name}의 개인 정보 웹사이트로, 개인 작품, 블로그, 커뮤니티 등의 관련 정보를 소개합니다.",

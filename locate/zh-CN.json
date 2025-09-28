@@ -37,7 +37,7 @@
             "about": "关于",
             "blog": "博客",
             "contact": "联系",
-            "youzi-app": "前往首页"
+            "youzi-app": "前往 Youzi 的 Web App"
         },
         "title": "{id} 的Github专页",
         "description": "{name} 的个人信息网站，展示个人作品、博客、社区等相关信息。",
