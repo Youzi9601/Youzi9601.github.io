@@ -161,13 +161,26 @@
         "loading": "Loading...",
         "title": "Service Status",
         "delay": "Delay",
-        "statusSummary": "Status Summary",
-        "noData": "No Data",
-        "up": "Online",
-        "down": "Offline",
-        "warn": "Unstable",
         "date": "Date",
-        "totalAverageResponseTime": "Total Average Response Time",
-        "location": "Location"
+        "location": "Location: {location}",
+        "level": {
+            "0": "System Operational",
+            "1": "Degraded Performance",
+            "2": "Partial Outage",
+            "3": "Major Outage"
+        },
+        "progress": {
+            "Investigating": "Investigating",
+            "Identified": "Identified",
+            "Monitoring": "Monitoring",
+            "Resolved": "Resolved"
+        },
+        "today": "Today",
+        "daysAgo": "90 days ago",
+        "noData": "No Data"
+    },
+    "incident": {
+        "title": "Incidents",
+        "cause": "Cause"
     }
 }

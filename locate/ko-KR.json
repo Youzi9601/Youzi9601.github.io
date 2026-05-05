@@ -144,14 +144,23 @@
         "loading": "로딩 중...",
         "title": "서비스 상태",
         "delay": "지연",
-        "statusSummary": "상태 요약",
-        "noData": "데이터 없음",
-        "up": "온라인",
-        "down": "오프라인",
-        "warn": "불안정",
         "date": "날짜",
-        "totalAverageResponseTime": "총 평균 응답 시간",
-        "location": "위치"
+        "location": "Location: {location}",
+        "level": {
+            "0": "System Operational",
+            "1": "Degraded Performance",
+            "2": "Partial Outage",
+            "3": "Major Outage"
+        },
+        "progress": {
+            "Investigating": "Investigating",
+            "Identified": "Identified",
+            "Monitoring": "Monitoring",
+            "Resolved": "Resolved"
+        },
+        "today": "Today",
+        "daysAgo": "90 days ago",
+        "noData": "No Data"
     },
     "footer": {
         "title": "{id}",
@@ -169,5 +178,9 @@
         "statusPage": "상태 페이지",
         "noRepo": "아직 목록에 없습니다",
         "discord": "Discord 서버"
+    },
+    "incident": {
+        "title": "Incidents",
+        "cause": "Cause"
     }
 }

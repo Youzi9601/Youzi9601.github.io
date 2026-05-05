@@ -161,13 +161,26 @@
         "loading": "載入中...",
         "title": "服務狀態",
         "delay": "延遲",
-        "statusSummary": "狀態摘要",
-        "noData": "無資料",
-        "up": "上線",
-        "down": "離線",
-        "warn": "不穩定",
         "date": "日期",
-        "totalAverageResponseTime": "總平均延遲",
-        "location": "位置"
+        "location": "位置: {location}",
+        "level": {
+            "0": "系統正常",
+            "1": "效能降級",
+            "2": "部分故障",
+            "3": "重大故障"
+        },
+        "progress": {
+            "Investigating": "調查中",
+            "Identified": "已確認根因",
+            "Monitoring": "監控中",
+            "Resolved": "已解決"
+        },
+        "today": "今日",
+        "daysAgo": "90天前",
+        "noData": "無數據"
+    },
+    "incident": {
+        "title": "事故紀錄",
+        "cause": "原因"
     }
 }

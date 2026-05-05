@@ -144,14 +144,23 @@
         "loading": "加载中...",
         "title": "服务状态",
         "delay": "延迟",
-        "statusSummary": "状态摘要",
-        "noData": "无数据",
-        "up": "在线",
-        "down": "离线",
-        "warn": "不稳定",
         "date": "日期",
-        "totalAverageResponseTime": "总平均延迟",
-        "location": "位置"
+        "location": "位置: {location}",
+        "level": {
+            "0": "系統正常",
+            "1": "效能降級",
+            "2": "部分故障",
+            "3": "重大故障"
+        },
+        "progress": {
+            "Investigating": "調查中",
+            "Identified": "已確認根因",
+            "Monitoring": "監控中",
+            "Resolved": "已解決"
+        },
+        "today": "今日",
+        "daysAgo": "90天前",
+        "noData": "無數據"
     },
     "footer": {
         "title": "{id}",
@@ -169,5 +178,9 @@
         "statusPage": "状态页面",
         "noRepo": "尚未列出",
         "discord": "Discord 服务器"
+    },
+    "incident": {
+        "title": "事故紀錄",
+        "cause": "原因"
     }
 }
