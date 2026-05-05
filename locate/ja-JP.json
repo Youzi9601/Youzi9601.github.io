@@ -145,22 +145,22 @@
         "title": "サービス状態",
         "delay": "遅延",
         "date": "日付",
-        "location": "Location: {location}",
+        "location": "場所: {location}",
         "level": {
-            "0": "System Operational",
-            "1": "Degraded Performance",
-            "2": "Partial Outage",
-            "3": "Major Outage"
+            "0": "システム正常",
+            "1": "パフォーマンス低下",
+            "2": "一部障害",
+            "3": "重大な障害"
         },
         "progress": {
-            "Investigating": "Investigating",
-            "Identified": "Identified",
-            "Monitoring": "Monitoring",
-            "Resolved": "Resolved"
+            "Investigating": "調査中",
+            "Identified": "原因特定済み",
+            "Monitoring": "監視中",
+            "Resolved": "解決済み"
         },
-        "today": "Today",
-        "daysAgo": "90 days ago",
-        "noData": "No Data"
+        "today": "今日",
+        "daysAgo": "日前",
+        "noData": "データなし"
     },
     "footer": {
         "title": "{id}",
@@ -180,7 +180,9 @@
         "discord": "Discordサーバー"
     },
     "incident": {
-        "title": "Incidents",
-        "cause": "Cause"
+        "incident": {
+            "title": "インシデント記録",
+            "cause": "原因"
+        }
     }
 }

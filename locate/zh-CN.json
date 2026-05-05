@@ -147,20 +147,20 @@
         "date": "日期",
         "location": "位置: {location}",
         "level": {
-            "0": "系統正常",
-            "1": "效能降級",
+            "0": "系统正常",
+            "1": "性能降级",
             "2": "部分故障",
             "3": "重大故障"
         },
         "progress": {
-            "Investigating": "調查中",
-            "Identified": "已確認根因",
-            "Monitoring": "監控中",
-            "Resolved": "已解決"
+            "Investigating": "调查中",
+            "Identified": "已确定根因",
+            "Monitoring": "监控中",
+            "Resolved": "已解决"
         },
         "today": "今日",
-        "daysAgo": "90天前",
-        "noData": "無數據"
+        "daysAgo": "天前",
+        "noData": "无数据"
     },
     "footer": {
         "title": "{id}",
@@ -180,7 +180,9 @@
         "discord": "Discord 服务器"
     },
     "incident": {
-        "title": "事故紀錄",
-        "cause": "原因"
+        "incident": {
+            "title": "事故记录",
+            "cause": "原因"
+        }
     }
 }

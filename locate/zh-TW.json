@@ -176,11 +176,13 @@
             "Resolved": "已解決"
         },
         "today": "今日",
-        "daysAgo": "90天前",
+        "daysAgo": "天前",
         "noData": "無數據"
     },
     "incident": {
-        "title": "事故紀錄",
-        "cause": "原因"
+        "incident": {
+            "title": "事故紀錄",
+            "cause": "原因"
+        }
     }
 }

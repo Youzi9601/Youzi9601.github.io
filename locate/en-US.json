@@ -176,11 +176,13 @@
             "Resolved": "Resolved"
         },
         "today": "Today",
-        "daysAgo": "90 days ago",
+        "daysAgo": "days ago",
         "noData": "No Data"
     },
     "incident": {
-        "title": "Incidents",
-        "cause": "Cause"
+        "incident": {
+            "title": "Incidents",
+            "cause": "Cause"
+        }
     }
 }
