@@ -1,0 +1,207 @@
+{
+    "404": {
+        "meta": {
+            "title": "404 Page Not Found"
+        }
+    },
+    "lang-code": "en-US",
+    "app": {
+        "alert": {
+            "noInternet": {
+                "title": "No Internet",
+                "body": "Please check your internet connection and refresh the page."
+            },
+            "unsupportedLang": {
+                "title": "Unsupported Language",
+                "body": "Sorry, this language is currently not supported."
+            },
+            "unknownErrorMessages": {
+                "title": "Unknown Error",
+                "body": "An unknown error occurred, please try again later."
+            }
+        }
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "blog": "Blog",
+        "contact": "Contact"
+    },
+    "header": {
+        "nav": {
+            "title": "{id}",
+            "language": "Language",
+            "theme": {
+                "toggle": "Toggle Theme",
+                "light": "Light",
+                "dark": "Dark",
+                "auto": "Auto"
+            }
+        }
+    },
+    "home": {
+        "meta": {
+            "title": "Home"
+        },
+        "title": "{id}'s Github Page",
+        "description": "{name}'s personal information website, showcasing personal works, blog, community, and related information.",
+        "scrollDown": "Scroll Down",
+        "aboutMe": {
+            "title": "About Me",
+            "intro": "Hello! I am {name}, a software engineer passionate about technology and innovation. I am proficient in using tools, learning new knowledge on the internet, and focusing on web development and application design. I enjoy learning new technologies and applying them to practical projects, striving to provide efficient and reliable solutions.",
+            "experience": "Throughout my career, I have participated in multiple projects, from requirement analysis, system design to final implementation, accumulating a lot of experience. I believe that teamwork and continuous learning are the keys to success, and I always maintain a passion and curiosity for technology.",
+            "welcome": "Welcome to browse my personal website to learn more about me. If you have any questions or cooperation intentions, please feel free to contact me."
+        },
+        "projects": {
+            "title": "Projects",
+            "description": "Websites and tools that I maintain, each of them actively updated.",
+            "items": {
+                "homepage": {
+                    "name": "This Site",
+                    "description": "This website itself — built with Vue 3 and Vite, deployed on GitHub Pages."
+                },
+                "discord": {
+                    "name": "Discord Community",
+                    "description": "Join the Discord server to take part in discussions and follow the latest news."
+                }
+            }
+        }
+    },
+    "blog": {
+        "meta": {
+            "title": "Blog"
+        },
+        "title": "Blog",
+        "description": "Sharing technical articles, project insights, and life reflections.",
+        "filter": {
+            "category": "Category",
+            "author": "Author",
+            "allCategories": "All Categories",
+            "allAuthors": "All Authors"
+        },
+        "readMore": "Read More",
+        "previousPage": "Previous Page",
+        "nextPage": "Next Page",
+        "endOfList": "End of List",
+        "back": "Back",
+        "loading": "Loading...",
+        "publishedAt": "Published At",
+        "updatedAt": "Updated At",
+        "postNotFound": "Post Not Found"
+    },
+    "blogPost": {
+        "meta": {
+            "title": "Blog"
+        }
+    },
+    "contact": {
+        "title": "Contact {id}",
+        "description": "Feel free to contact {name} through the following methods.",
+        "discord": "Join on Discord",
+        "github": "GitHub profile"
+    },
+    "status": {
+        "meta": {
+            "title": "Service Status"
+        },
+        "loading": "Loading...",
+        "title": "Service Status",
+        "level": {
+            "0": "System Operational",
+            "1": "Degraded Performance",
+            "2": "Partial Outage",
+            "3": "Major Outage"
+        },
+        "subtitle": "Real-time availability of every service",
+        "overall": "Overall status",
+        "lastUpdated": "Last check",
+        "lastChange": "Last status change",
+        "dataCached": "Data is cached at the edge for up to 60 seconds, so figures may lag slightly.",
+        "responseTime": "Response time",
+        "datacenter": "Datacenter",
+        "unknown": "Unknown",
+        "errorTitle": "Unable to load service status",
+        "services": "Services",
+        "summary": {
+            "title": "Summary",
+            "total": "Total services",
+            "up": "Operational",
+            "down": "Down",
+            "unknown": "No data"
+        },
+        "impact": {
+            "none": "No impact",
+            "minor": "Minor impact",
+            "major": "Major impact",
+            "critical": "Critical impact"
+        },
+        "api": {
+            "title": "API status",
+            "worker": "Worker",
+            "kv": "KV binding",
+            "uptime": "Uptime",
+            "version": "Version",
+            "docs": "View the API documentation",
+            "ok": "Healthy",
+            "degraded": "Degraded",
+            "days": "d",
+            "hours": "h",
+            "minutes": "m"
+        },
+        "history": {
+            "heading": "Recent history",
+            "title": "Recent history",
+            "days": "{days} days",
+            "note": "This chart comes from the status API's per-day history (/api/history); each cell is one UTC day's check statistics: green means every check passed, blue means some checks were slow, yellow means some sites were down and red means all sites were down. Days without any recorded check are hatched as no data, and a dot marks a day with a recorded incident.",
+            "up": "Operational",
+            "down": "Down",
+            "noData": "No data",
+            "hasIncident": "Incident recorded",
+            "degraded": "Degraded",
+            "checks": "{count} checks",
+            "uptime": "Uptime {value}%",
+            "avgRt": "Avg {value}ms",
+            "maxRt": "Max {value}ms",
+            "unavailable": "History unavailable"
+        },
+        "lastCheck": "Last check",
+        "uptime": "Uptime",
+        "failure": "Failure",
+        "regions": "Regional probes",
+        "stage": {
+            "investigating": "Investigating",
+            "identified": "Identified",
+            "monitoring": "Monitoring",
+            "resolved": "Resolved",
+            "scheduled": "Scheduled",
+            "in_progress": "In progress",
+            "completed": "Completed",
+            "canceled": "Canceled"
+        }
+    },
+    "incident": {
+        "title": "Incident history",
+        "cause": "Cause",
+        "empty": "There are no incidents to report",
+        "category": "Category",
+        "impact": "Impact",
+        "createdAt": "Created",
+        "id": "ID",
+        "eta": "Estimated recovery",
+        "affected": "Affected services",
+        "resolvedAt": "Resolved",
+        "updates": "Updates"
+    },
+    "footer": {
+        "title": "{id}",
+        "me": "A pomelo, not edible.",
+        "by": "{name} 2025/01/02",
+        "buildOn": "Built with Bootstrap & Vue, deployed using Github Pages.",
+        "copyright": "All rights reserved © {year} {owner}",
+        "navs": "Navigation",
+        "projects": "Projects",
+        "community": "Community",
+        "statusPage": "Status Page",
+        "github": "GitHub profile"
+    }
+}

@@ -1,0 +1,207 @@
+{
+    "404": {
+        "meta": {
+            "title": "404 找不到頁面"
+        }
+    },
+    "lang-code": "zh-TW",
+    "app": {
+        "alert": {
+            "noInternet": {
+                "title": "沒有網際網路",
+                "body": "請檢查您的網路連線，並重新整理頁面。"
+            },
+            "unsupportedLang": {
+                "title": "不支援的語言",
+                "body": "抱歉，目前不支援此語言。"
+            },
+            "unknownErrorMessages": {
+                "title": "未知錯誤",
+                "body": "發生未知錯誤，請稍後再試。"
+            }
+        }
+    },
+    "nav": {
+        "home": "首頁",
+        "about": "關於",
+        "blog": "部落格",
+        "contact": "聯絡"
+    },
+    "header": {
+        "nav": {
+            "title": "{id}",
+            "language": "顯示語言",
+            "theme": {
+                "toggle": "切換主題",
+                "light": "淺色",
+                "dark": "深色",
+                "auto": "自動"
+            }
+        }
+    },
+    "home": {
+        "meta": {
+            "title": "首頁"
+        },
+        "title": "{id} 的Github專頁",
+        "description": "{name} 的個人資訊網站，展示個人作品、部落格、社群等相關訊息。",
+        "scrollDown": "向下滾動",
+        "aboutMe": {
+            "title": "關於我",
+            "intro": "您好！我是{name}，一名熱愛技術與創新的軟體工程師。我善於使用工具、學習網路新知，專注於網頁開發和應用程式設計。我喜歡學習新技術並將其應用於實際專案中，致力於提供高效且可靠的解決方案。",
+            "experience": "在我的生涯中，我曾參與過多個專案製作，從需求分析、系統設計到最終實施，積累了許多的經驗。我相信團隊合作和持續學習是成功的關鍵，並且我始終保持著對技術的熱情和好奇心。",
+            "welcome": "歡迎瀏覽我的個人網頁，了解更多關於我的資訊。如果您有任何問題或合作意向，請隨時聯絡我。"
+        },
+        "projects": {
+            "title": "專案",
+            "description": "我正在維護的網站與工具，每一項都持續更新中。",
+            "items": {
+                "homepage": {
+                    "name": "本站",
+                    "description": "這個網站本身：使用 Vue 3 與 Vite 建置，部署於 GitHub Pages。"
+                },
+                "discord": {
+                    "name": "Discord 社群",
+                    "description": "加入 Discord 伺服器，參與討論並掌握最新消息。"
+                }
+            }
+        }
+    },
+    "blog": {
+        "title": "部落格",
+        "description": "分享技術文章、專案心得和生活感悟。",
+        "meta": {
+            "title": "部落格"
+        },
+        "filter": {
+            "category": "分類",
+            "author": "作者",
+            "allCategories": "所有分類",
+            "allAuthors": "所有作者"
+        },
+        "readMore": "閱讀更多",
+        "previousPage": "上一頁",
+        "nextPage": "下一頁",
+        "endOfList": "已經到底了",
+        "back": "返回",
+        "loading": "讀取中...",
+        "publishedAt": "發布時間",
+        "updatedAt": "更新時間",
+        "postNotFound": "找不到文章"
+    },
+    "blogPost": {
+        "meta": {
+            "title": "部落格"
+        }
+    },
+    "contact": {
+        "title": "聯絡 {id}",
+        "description": "歡迎與{name}聯絡，您可以通過以下方式與我取得聯繫。",
+        "discord": "加入 Discord",
+        "github": "GitHub 個人檔案"
+    },
+    "status": {
+        "meta": {
+            "title": "服務狀態"
+        },
+        "loading": "載入中...",
+        "title": "服務狀態",
+        "level": {
+            "0": "系統正常",
+            "1": "效能降級",
+            "2": "部分故障",
+            "3": "重大故障"
+        },
+        "subtitle": "所有服務的即時可用性狀態",
+        "overall": "整體狀態",
+        "lastUpdated": "最後檢查時間",
+        "lastChange": "最後狀態變動",
+        "dataCached": "資料在邊緣最多快取 60 秒，顯示的數據可能略有延遲。",
+        "responseTime": "回應時間",
+        "datacenter": "機房",
+        "unknown": "未知",
+        "errorTitle": "無法取得服務狀態",
+        "services": "服務列表",
+        "summary": {
+            "title": "狀態摘要",
+            "total": "服務總數",
+            "up": "正常",
+            "down": "異常",
+            "unknown": "無資料"
+        },
+        "impact": {
+            "none": "無影響",
+            "minor": "輕微影響",
+            "major": "嚴重影響",
+            "critical": "致命影響"
+        },
+        "api": {
+            "title": "API 狀態",
+            "worker": "Worker",
+            "kv": "KV 綁定",
+            "uptime": "運行時間",
+            "version": "版本",
+            "docs": "查看 API 文件",
+            "ok": "正常",
+            "degraded": "降級",
+            "days": "天",
+            "hours": "小時",
+            "minutes": "分鐘"
+        },
+        "history": {
+            "heading": "近期狀態概況",
+            "title": "近期狀態",
+            "days": "{days} 天",
+            "note": "本圖取自狀態 API 的逐日歷史（/api/history），每格代表該 UTC 日期的檢查統計：綠色為全部通過、藍色為有慢速回應、黃色為部分站台異常、紅色為全部異常。當日沒有任何檢查紀錄時以斜紋標示為無資料，格內的圓點代表該日有事件紀錄。",
+            "up": "正常",
+            "down": "異常",
+            "noData": "無資料",
+            "hasIncident": "當日有事件",
+            "degraded": "效能降級",
+            "checks": "檢查 {count} 次",
+            "uptime": "可用率 {value}%",
+            "avgRt": "平均 {value}ms",
+            "maxRt": "最大 {value}ms",
+            "unavailable": "無法取得歷史資料"
+        },
+        "lastCheck": "最後檢查",
+        "uptime": "可用率",
+        "failure": "失敗原因",
+        "regions": "跨區域探測",
+        "stage": {
+            "investigating": "調查中",
+            "identified": "已確認原因",
+            "monitoring": "監控中",
+            "resolved": "已解決",
+            "scheduled": "已排程",
+            "in_progress": "處理中",
+            "completed": "已完成",
+            "canceled": "已取消"
+        }
+    },
+    "incident": {
+        "title": "事件紀錄",
+        "cause": "原因",
+        "empty": "目前沒有任何事件紀錄",
+        "category": "分類",
+        "impact": "影響程度",
+        "createdAt": "建立時間",
+        "id": "編號",
+        "eta": "預估恢復",
+        "affected": "受影響站台",
+        "resolvedAt": "解除時間",
+        "updates": "狀態更新"
+    },
+    "footer": {
+        "title": "{id}",
+        "me": "一個柚子，不可食用。",
+        "by": "{name} 2025/01/02",
+        "buildOn": "基於 Bootstrap & Vue 構建，使用 Github Pages 部署。",
+        "copyright": "版權所有 © {year} {owner}",
+        "navs": "導航",
+        "projects": "專案",
+        "community": "社群",
+        "statusPage": "狀態頁面",
+        "github": "GitHub 個人檔案"
+    }
+}

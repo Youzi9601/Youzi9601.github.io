@@ -1,0 +1,207 @@
+{
+    "404": {
+        "meta": {
+            "title": "404 找不到页面"
+        }
+    },
+    "lang-code": "zh-CN",
+    "app": {
+        "alert": {
+            "noInternet": {
+                "title": "没有网络",
+                "body": "请检查您的网络连接，并刷新页面。"
+            },
+            "unsupportedLang": {
+                "title": "不支持的语言",
+                "body": "抱歉，目前不支持此语言。"
+            },
+            "unknownErrorMessages": {
+                "title": "未知错误",
+                "body": "发生未知错误，请稍后再试。"
+            }
+        }
+    },
+    "nav": {
+        "home": "首页",
+        "about": "关于",
+        "blog": "博客",
+        "contact": "联系"
+    },
+    "header": {
+        "nav": {
+            "title": "{id}",
+            "language": "显示语言",
+            "theme": {
+                "toggle": "切换主题",
+                "light": "浅色",
+                "dark": "深色",
+                "auto": "自动"
+            }
+        }
+    },
+    "home": {
+        "meta": {
+            "title": "首页"
+        },
+        "title": "{id} 的Github专页",
+        "description": "{name} 的个人信息网站，展示个人作品、博客、社区等相关信息。",
+        "scrollDown": "向下滚动",
+        "aboutMe": {
+            "title": "关于我",
+            "intro": "您好！我是{name}，一名热爱技术与创新的软件工程师。我善于使用工具、学习网络新知，专注于网页开发和应用程序设计。我喜欢学习新技术并将其应用于实际项目中，致力于提供高效且可靠的解决方案。",
+            "experience": "在我的职业生涯中，我曾参与过多个项目制作，从需求分析、系统设计到最终实施，积累了许多的经验。我相信团队合作和持续学习是成功的关键，并且我始终保持着对技术的热情和好奇心。",
+            "welcome": "欢迎浏览我的个人网页，了解更多关于我的信息。如果您有任何问题或合作意向，请随时联系我。"
+        },
+        "projects": {
+            "title": "项目",
+            "description": "我正在维护的网站与工具，每一项都持续更新中。",
+            "items": {
+                "homepage": {
+                    "name": "本站",
+                    "description": "这个网站本身：使用 Vue 3 与 Vite 构建，部署于 GitHub Pages。"
+                },
+                "discord": {
+                    "name": "Discord 社群",
+                    "description": "加入 Discord 服务器，参与讨论并掌握最新消息。"
+                }
+            }
+        }
+    },
+    "blog": {
+        "meta": {
+            "title": "博客"
+        },
+        "title": "博客",
+        "description": "分享技术文章、项目心得和生活感悟。",
+        "filter": {
+            "category": "分类",
+            "author": "作者",
+            "allCategories": "所有分类",
+            "allAuthors": "所有作者"
+        },
+        "readMore": "阅读更多",
+        "previousPage": "上一页",
+        "nextPage": "下一页",
+        "endOfList": "已经到底了",
+        "back": "返回",
+        "loading": "加载中...",
+        "publishedAt": "发布时间",
+        "updatedAt": "更新时间",
+        "postNotFound": "找不到文章"
+    },
+    "blogPost": {
+        "meta": {
+            "title": "博客"
+        }
+    },
+    "contact": {
+        "title": "联系 {id}",
+        "description": "欢迎与{name}联系，您可以通过以下方式与我取得联系。",
+        "discord": "加入 Discord",
+        "github": "GitHub 个人主页"
+    },
+    "status": {
+        "meta": {
+            "title": "服务状态"
+        },
+        "loading": "加载中...",
+        "title": "服务状态",
+        "level": {
+            "0": "系统正常",
+            "1": "性能降级",
+            "2": "部分故障",
+            "3": "重大故障"
+        },
+        "subtitle": "所有服务的即时可用性状态",
+        "overall": "整体状态",
+        "lastUpdated": "最后检查时间",
+        "lastChange": "最后状态变动",
+        "dataCached": "数据在边缘最多缓存 60 秒，显示的数据可能略有延迟。",
+        "responseTime": "响应时间",
+        "datacenter": "机房",
+        "unknown": "未知",
+        "errorTitle": "无法取得服务状态",
+        "services": "服务列表",
+        "summary": {
+            "title": "状态摘要",
+            "total": "服务总数",
+            "up": "正常",
+            "down": "异常",
+            "unknown": "无数据"
+        },
+        "impact": {
+            "none": "无影响",
+            "minor": "轻微影响",
+            "major": "严重影响",
+            "critical": "致命影响"
+        },
+        "api": {
+            "title": "API 状态",
+            "worker": "Worker",
+            "kv": "KV 绑定",
+            "uptime": "运行时间",
+            "version": "版本",
+            "docs": "查看 API 文件",
+            "ok": "正常",
+            "degraded": "降级",
+            "days": "天",
+            "hours": "小时",
+            "minutes": "分钟"
+        },
+        "history": {
+            "heading": "近期状态概况",
+            "title": "近期状态",
+            "days": "{days} 天",
+            "note": "本图取自状态 API 的逐日历史（/api/history），每格代表该 UTC 日期的检查统计：绿色为全部通过、蓝色为有慢速响应、黄色为部分站点异常、红色为全部异常。当日没有任何检查记录时以斜纹标示为无数据，格内的圆点代表该日有事件记录。",
+            "up": "正常",
+            "down": "异常",
+            "noData": "无数据",
+            "hasIncident": "当日有事件",
+            "degraded": "性能降级",
+            "checks": "检查 {count} 次",
+            "uptime": "可用率 {value}%",
+            "avgRt": "平均 {value}ms",
+            "maxRt": "最大 {value}ms",
+            "unavailable": "无法取得历史资料"
+        },
+        "lastCheck": "最后检查",
+        "uptime": "可用率",
+        "failure": "失败原因",
+        "regions": "跨区域探测",
+        "stage": {
+            "investigating": "调查中",
+            "identified": "已确认原因",
+            "monitoring": "监控中",
+            "resolved": "已解决",
+            "scheduled": "已排程",
+            "in_progress": "处理中",
+            "completed": "已完成",
+            "canceled": "已取消"
+        }
+    },
+    "incident": {
+        "title": "事件记录",
+        "cause": "原因",
+        "empty": "目前没有任何事件记录",
+        "category": "分类",
+        "impact": "影响程度",
+        "createdAt": "创建时间",
+        "id": "编号",
+        "eta": "预计恢复",
+        "affected": "受影响站台",
+        "resolvedAt": "解除时间",
+        "updates": "状态更新"
+    },
+    "footer": {
+        "title": "{id}",
+        "me": "一个柚子，不可食用。",
+        "by": "{name} 2025/01/02",
+        "buildOn": "基于 Bootstrap & Vue 构建，使用 Github Pages 部署。",
+        "copyright": "版权所有 © {year} {owner}",
+        "navs": "导航",
+        "projects": "项目",
+        "community": "社区",
+        "statusPage": "状态页面",
+        "github": "GitHub 个人主页"
+    }
+}

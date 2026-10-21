@@ -1,0 +1,207 @@
+{
+    "404": {
+        "meta": {
+            "title": "404 ページが見つかりません"
+        }
+    },
+    "lang-code": "ja-JP",
+    "app": {
+        "alert": {
+            "noInternet": {
+                "title": "インターネット接続なし",
+                "body": "インターネット接続を確認して、ページをリフレッシュしてください。"
+            },
+            "unsupportedLang": {
+                "title": "サポートされていない言語",
+                "body": "申し訳ありませんが、現在この言語はサポートされていません。"
+            },
+            "unknownErrorMessages": {
+                "title": "不明なエラー",
+                "body": "不明なエラーが発生しました。後でもう一度お試しください。"
+            }
+        }
+    },
+    "nav": {
+        "home": "ホーム",
+        "about": "プロフィール",
+        "blog": "ブログ",
+        "contact": "お問い合わせ"
+    },
+    "header": {
+        "nav": {
+            "title": "{id}",
+            "language": "表示言語",
+            "theme": {
+                "toggle": "テーマを切り替える",
+                "light": "ライト",
+                "dark": "ダーク",
+                "auto": "自動"
+            }
+        }
+    },
+    "home": {
+        "meta": {
+            "title": "ホーム"
+        },
+        "title": "{id} のGithubページ",
+        "description": "{name} の個人情報ウェブサイトで、個人作品、ブログ、コミュニティなどの関連情報を紹介します。",
+        "scrollDown": "スクロールダウン",
+        "aboutMe": {
+            "title": "私について",
+            "intro": "こんにちは！私は{name}です。技術と革新に情熱を持つソフトウェアエンジニアです。ツールの使用、インターネットでの新しい知識の学習に熟練しており、ウェブ開発とアプリケーション設計に注力しています。新しい技術を学び、それを実際のプロジェクトに適用することが好きで、効率的で信頼性の高いソリューションを提供することを目指しています。",
+            "experience": "私のキャリアの中で、要件分析、システム設計から最終実装まで、複数のプロジェクトに参加し、多くの経験を積んできました。チームワークと継続的な学習が成功の鍵であると信じており、常に技術に対する情熱と好奇心を持ち続けています。",
+            "welcome": "私の個人ウェブサイトをご覧いただき、私についてもっと知っていただければ幸いです。ご質問や協力のご意向がありましたら、お気軽にご連絡ください。"
+        },
+        "projects": {
+            "title": "プロジェクト",
+            "description": "私が保守しているウェブサイトとツールです。いずれも継続的に更新しています。",
+            "items": {
+                "homepage": {
+                    "name": "このサイト",
+                    "description": "このウェブサイト自体。Vue 3 と Vite で構築し、GitHub Pages で公開しています。"
+                },
+                "discord": {
+                    "name": "Discord コミュニティ",
+                    "description": "Discord サーバーに参加すると、議論や最新情報にアクセスできます。"
+                }
+            }
+        }
+    },
+    "blog": {
+        "meta": {
+            "title": "ブログ"
+        },
+        "title": "ブログ",
+        "description": "技術記事、プロジェクトの感想、生活の感想を共有します。",
+        "filter": {
+            "category": "カテゴリー",
+            "author": "著者",
+            "allCategories": "すべてのカテゴリー",
+            "allAuthors": "すべての著者"
+        },
+        "readMore": "もっと読む",
+        "previousPage": "前のページ",
+        "nextPage": "次のページ",
+        "endOfList": "リストの終わり",
+        "back": "戻る",
+        "loading": "読み込み中...",
+        "publishedAt": "公開日",
+        "updatedAt": "更新日",
+        "postNotFound": "記事が見つかりません"
+    },
+    "blogPost": {
+        "meta": {
+            "title": "ブログ"
+        }
+    },
+    "contact": {
+        "title": "連絡 {id}",
+        "description": "{name} と連絡を取りたい場合は、以下の方法で連絡できます。",
+        "discord": "Discord に参加",
+        "github": "GitHub プロフィール"
+    },
+    "status": {
+        "meta": {
+            "title": "サービス状態"
+        },
+        "loading": "読み込み中...",
+        "title": "サービス状態",
+        "level": {
+            "0": "システム正常",
+            "1": "パフォーマンス低下",
+            "2": "一部障害",
+            "3": "重大な障害"
+        },
+        "subtitle": "すべてのサービスのリアルタイム可用性ステータス",
+        "overall": "全体のステータス",
+        "lastUpdated": "最終チェック",
+        "lastChange": "最終ステータス変更",
+        "dataCached": "データはエッジで最大 60 秒キャッシュされるため、少し古い可能性があります。",
+        "responseTime": "応答時間",
+        "datacenter": "データセンター",
+        "unknown": "不明",
+        "errorTitle": "サービスステータスを取得できません",
+        "services": "サービス一覧",
+        "summary": {
+            "title": "サマリー",
+            "total": "サービス数",
+            "up": "正常",
+            "down": "異常",
+            "unknown": "データなし"
+        },
+        "impact": {
+            "none": "影響なし",
+            "minor": "軽微な影響",
+            "major": "重大な影響",
+            "critical": "致命的な影響"
+        },
+        "api": {
+            "title": "API のステータス",
+            "worker": "Worker",
+            "kv": "KV バインディング",
+            "uptime": "稼働時間",
+            "version": "バージョン",
+            "docs": "API ドキュメントを見る",
+            "ok": "正常",
+            "degraded": "劣化",
+            "days": "日",
+            "hours": "時間",
+            "minutes": "分"
+        },
+        "history": {
+            "heading": "近況の推移",
+            "title": "近況",
+            "days": "{days} 日間",
+            "note": "このグラフは状態 API の日別履歴（/api/history）から取得しています。各マスは UTC の 1 日分のチェック統計です。緑は全チェック成功、青は遅い応答あり、黄は一部サイトの異常、赤は全サイトの異常を示します。チェック記録のない日は斜線（データなし）で示し、点はその日にイベントがあったことを表します。",
+            "up": "正常",
+            "down": "異常",
+            "noData": "データなし",
+            "hasIncident": "イベントあり",
+            "degraded": "パフォーマンス低下",
+            "checks": "チェック {count} 回",
+            "uptime": "可用率 {value}%",
+            "avgRt": "平均 {value}ms",
+            "maxRt": "最大 {value}ms",
+            "unavailable": "履歴を取得できません"
+        },
+        "lastCheck": "最終チェック",
+        "uptime": "可用率",
+        "failure": "失敗要因",
+        "regions": "リージョン別プローブ",
+        "stage": {
+            "investigating": "調査中",
+            "identified": "原因特定済み",
+            "monitoring": "監視中",
+            "resolved": "解決済み",
+            "scheduled": "予定",
+            "in_progress": "対応中",
+            "completed": "完了",
+            "canceled": "中止"
+        }
+    },
+    "incident": {
+        "title": "インシデント履歴",
+        "cause": "原因",
+        "empty": "現在インシデントはありません",
+        "category": "カテゴリ",
+        "impact": "影響度",
+        "createdAt": "作成日時",
+        "id": "ID",
+        "eta": "復旧予定",
+        "affected": "影響サービス",
+        "resolvedAt": "解決日時",
+        "updates": "更新"
+    },
+    "footer": {
+        "title": "{id}",
+        "me": "食べられないポメロ。",
+        "by": "{name} 2025/01/02",
+        "buildOn": "Bootstrap & Vueで構築され、Github Pagesを使用してデプロイされました。",
+        "copyright": "著作権所有 © {year} {owner}",
+        "navs": "ナビゲーション",
+        "projects": "プロジェクト",
+        "community": "コミュニティ",
+        "statusPage": "ステータスページ",
+        "github": "GitHub プロフィール"
+    }
+}

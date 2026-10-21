@@ -2,19 +2,23 @@
 <html lang="zh-TW">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> -->
-    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#ffffff" />
     <title>Youzi9601 (柚子Youzi)</title>
-    <meta name="description" content="A personal website for Youzi9601 (柚子Youzi)" />
-    <meta name="author" content="Youzi9601" />
-    <!-- OGP Meta Tags -->
+    <meta name="description" content="Youzi9601 (柚子Youzi) - A personal website for Youzi9601 (柚子Youzi)" />
+    <meta name="keywords" content="柚子Youzi, Youzi, 柚子, 個人網站, 程式設計, 網頁設計, 程式開發, 網頁開發, 前端工程師, 後端工程師, Vue, Vue3, Vue.js, JavaScript, TypeScript, Node.js, TailwindCSS, SCSS, HTML, CSS, GitHub, Discord" />
+    <meta name="author" content="Youzi9601 (柚子Youzi)" />
     <meta property="og:title" content="Youzi9601 (柚子Youzi)" />
-    <meta property="og:description" content="A personal website for Youzi9601 (柚子Youzi)" />
+    <meta property="og:description" content="Youzi9601 (柚子Youzi) - A personal website for Youzi9601 (柚子Youzi)" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://Youzi9601.github.io/" />
-    <meta property="og:image" content="https://Youzi9601.github.io/favicon.png" />
+    <meta property="og:image" content="https://Youzi9601.github.io/og-image.jpg" />
 
     <!-- Start Single Page Apps for GitHub Pages -->
     <script type="text/javascript">
@@ -45,13 +49,14 @@
 
     <!-- css -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <script type="module" crossorigin src="/assets/index-D3hy6tY-.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-D6bO7O8L.css">
+    <script type="module" crossorigin src="/assets/index-DO63ZPDD.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vue-i18n-CNASa2xN.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-CIOSXwzH.css">
   </head>
   <body>
     <div id="app"></div>
@@ -63,50 +68,29 @@
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
       crossorigin="anonymous"
     ></script>
-    <!-- themeTogger -->
+    <!-- themeToggler -->
+    <!--
+      在 Vue 應用程式載入前先套用主題，避免主題閃爍（FOUC）。
+      邏輯需與 `src/components/themeToggler.vue` 保持一致。
+    -->
     <script>
       (() => {
         'use strict';
-        const localStorageNames = {
-          theme: 'theme',
-        };
+        const THEME_STORAGE_KEY = 'theme';
 
-        const getStoredTheme = () => localStorage.getItem(localStorageNames.theme);
-        const setStoredTheme = (theme) => localStorage.setItem(localStorageNames.theme, theme);
+        const storedTheme = localStorage.getItem(THEME_STORAGE_KEY);
+        const theme =
+          storedTheme === 'light' || storedTheme === 'dark'
+            ? storedTheme
+            : window.matchMedia('(prefers-color-scheme: dark)').matches
+              ? 'dark'
+              : 'light';
 
-        const getPreferredTheme = () => {
-          const storedTheme = getStoredTheme();
-          if (storedTheme) {
-            return storedTheme;
-          }
-
-          setStoredTheme('auto');
-          return 'auto';
-        };
-
-        const setTheme = (theme) => {
-          if (theme === 'auto') {
-            document.documentElement.setAttribute(
-              'data-bs-theme',
-              window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light',
-            );
-          } else {
-            document.documentElement.setAttribute('data-bs-theme', theme);
-          }
-        };
-
-        setTheme(getPreferredTheme());
-
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-          const storedTheme = getStoredTheme();
-          if (storedTheme !== 'light' && storedTheme !== 'dark') {
-            setTheme(getPreferredTheme());
-          }
-        });
+        document.documentElement.setAttribute('data-bs-theme', theme);
       })();
     </script>
     <noscript>
