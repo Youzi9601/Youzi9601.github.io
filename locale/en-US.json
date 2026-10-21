@@ -116,7 +116,6 @@
         "overall": "Overall status",
         "lastUpdated": "Last check",
         "lastChange": "Last status change",
-        "dataCached": "Data is cached at the edge for up to 60 seconds, so figures may lag slightly.",
         "responseTime": "Response time",
         "datacenter": "Datacenter",
         "unknown": "Unknown",
@@ -152,7 +151,6 @@
             "heading": "Recent history",
             "title": "Recent history",
             "days": "{days} days",
-            "note": "This chart comes from the status API's per-day history (/api/history); each cell is one UTC day's check statistics: green means every check passed, blue means some checks were slow, yellow means some sites were down and red means all sites were down. Days without any recorded check are hatched as no data, and a dot marks a day with a recorded incident.",
             "up": "Operational",
             "down": "Down",
             "noData": "No data",
@@ -165,7 +163,6 @@
             "unavailable": "History unavailable"
         },
         "lastCheck": "Last check",
-        "uptime": "Uptime",
         "failure": "Failure",
         "regions": "Regional probes",
         "stage": {
@@ -177,14 +174,14 @@
             "in_progress": "In progress",
             "completed": "Completed",
             "canceled": "Canceled"
-        }
+        },
+        "uptimeRange": "Uptime (last {days} days)",
+        "regionTooltip": "{region} ({subnet}) · {rt}ms"
     },
     "incident": {
         "title": "Incident history",
-        "cause": "Cause",
         "empty": "There are no incidents to report",
         "category": "Category",
-        "impact": "Impact",
         "createdAt": "Created",
         "id": "ID",
         "eta": "Estimated recovery",

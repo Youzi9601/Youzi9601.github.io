@@ -116,7 +116,6 @@
         "overall": "整体状态",
         "lastUpdated": "最后检查时间",
         "lastChange": "最后状态变动",
-        "dataCached": "数据在边缘最多缓存 60 秒，显示的数据可能略有延迟。",
         "responseTime": "响应时间",
         "datacenter": "机房",
         "unknown": "未知",
@@ -152,7 +151,6 @@
             "heading": "近期状态概况",
             "title": "近期状态",
             "days": "{days} 天",
-            "note": "本图取自状态 API 的逐日历史（/api/history），每格代表该 UTC 日期的检查统计：绿色为全部通过、蓝色为有慢速响应、黄色为部分站点异常、红色为全部异常。当日没有任何检查记录时以斜纹标示为无数据，格内的圆点代表该日有事件记录。",
             "up": "正常",
             "down": "异常",
             "noData": "无数据",
@@ -165,7 +163,6 @@
             "unavailable": "无法取得历史资料"
         },
         "lastCheck": "最后检查",
-        "uptime": "可用率",
         "failure": "失败原因",
         "regions": "跨区域探测",
         "stage": {
@@ -177,14 +174,14 @@
             "in_progress": "处理中",
             "completed": "已完成",
             "canceled": "已取消"
-        }
+        },
+        "uptimeRange": "可用率（近 {days} 天）",
+        "regionTooltip": "{region}（{subnet}）· {rt}ms"
     },
     "incident": {
         "title": "事件记录",
-        "cause": "原因",
         "empty": "目前没有任何事件记录",
         "category": "分类",
-        "impact": "影响程度",
         "createdAt": "创建时间",
         "id": "编号",
         "eta": "预计恢复",

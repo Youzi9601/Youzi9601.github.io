@@ -116,7 +116,6 @@
         "overall": "整體狀態",
         "lastUpdated": "最後檢查時間",
         "lastChange": "最後狀態變動",
-        "dataCached": "資料在邊緣最多快取 60 秒，顯示的數據可能略有延遲。",
         "responseTime": "回應時間",
         "datacenter": "機房",
         "unknown": "未知",
@@ -152,7 +151,6 @@
             "heading": "近期狀態概況",
             "title": "近期狀態",
             "days": "{days} 天",
-            "note": "本圖取自狀態 API 的逐日歷史（/api/history），每格代表該 UTC 日期的檢查統計：綠色為全部通過、藍色為有慢速回應、黃色為部分站台異常、紅色為全部異常。當日沒有任何檢查紀錄時以斜紋標示為無資料，格內的圓點代表該日有事件紀錄。",
             "up": "正常",
             "down": "異常",
             "noData": "無資料",
@@ -165,7 +163,6 @@
             "unavailable": "無法取得歷史資料"
         },
         "lastCheck": "最後檢查",
-        "uptime": "可用率",
         "failure": "失敗原因",
         "regions": "跨區域探測",
         "stage": {
@@ -177,14 +174,14 @@
             "in_progress": "處理中",
             "completed": "已完成",
             "canceled": "已取消"
-        }
+        },
+        "uptimeRange": "可用率（近 {days} 天）",
+        "regionTooltip": "{region}（{subnet}）· {rt}ms"
     },
     "incident": {
         "title": "事件紀錄",
-        "cause": "原因",
         "empty": "目前沒有任何事件紀錄",
         "category": "分類",
-        "impact": "影響程度",
         "createdAt": "建立時間",
         "id": "編號",
         "eta": "預估恢復",

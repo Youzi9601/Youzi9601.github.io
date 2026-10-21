@@ -116,7 +116,6 @@
         "overall": "全体のステータス",
         "lastUpdated": "最終チェック",
         "lastChange": "最終ステータス変更",
-        "dataCached": "データはエッジで最大 60 秒キャッシュされるため、少し古い可能性があります。",
         "responseTime": "応答時間",
         "datacenter": "データセンター",
         "unknown": "不明",
@@ -152,7 +151,6 @@
             "heading": "近況の推移",
             "title": "近況",
             "days": "{days} 日間",
-            "note": "このグラフは状態 API の日別履歴（/api/history）から取得しています。各マスは UTC の 1 日分のチェック統計です。緑は全チェック成功、青は遅い応答あり、黄は一部サイトの異常、赤は全サイトの異常を示します。チェック記録のない日は斜線（データなし）で示し、点はその日にイベントがあったことを表します。",
             "up": "正常",
             "down": "異常",
             "noData": "データなし",
@@ -165,7 +163,6 @@
             "unavailable": "履歴を取得できません"
         },
         "lastCheck": "最終チェック",
-        "uptime": "可用率",
         "failure": "失敗要因",
         "regions": "リージョン別プローブ",
         "stage": {
@@ -177,14 +174,14 @@
             "in_progress": "対応中",
             "completed": "完了",
             "canceled": "中止"
-        }
+        },
+        "uptimeRange": "可用率（過去 {days} 日）",
+        "regionTooltip": "{region}（{subnet}）· {rt}ms"
     },
     "incident": {
         "title": "インシデント履歴",
-        "cause": "原因",
         "empty": "現在インシデントはありません",
         "category": "カテゴリ",
-        "impact": "影響度",
         "createdAt": "作成日時",
         "id": "ID",
         "eta": "復旧予定",
