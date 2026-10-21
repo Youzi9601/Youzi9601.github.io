@@ -140,7 +140,6 @@
             "kv": "KV 바인딩",
             "uptime": "가동 시간",
             "version": "버전",
-            "docs": "API 문서 보기",
             "ok": "정상",
             "degraded": "저하",
             "days": "일",

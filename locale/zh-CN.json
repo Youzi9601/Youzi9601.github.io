@@ -140,7 +140,6 @@
             "kv": "KV 绑定",
             "uptime": "运行时间",
             "version": "版本",
-            "docs": "查看 API 文件",
             "ok": "正常",
             "degraded": "降级",
             "days": "天",

@@ -140,7 +140,6 @@
             "kv": "KV binding",
             "uptime": "Uptime",
             "version": "Version",
-            "docs": "View the API documentation",
             "ok": "Healthy",
             "degraded": "Degraded",
             "days": "d",
