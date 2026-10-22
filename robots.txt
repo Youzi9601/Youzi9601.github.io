@@ -1,0 +1,62 @@
+# robots.txt for https://youzi.dpdns.org
+#
+# 格式依 RFC 9309 訂定：https://www.rfc-editor.org/rfc/rfc9309
+#
+# 規則說明：
+#   - `User-agent` 區塊分組比對，採「最具體者優先」（RFC 9309 §2.2.2）。
+#   - `Allow` / `Disallow` 以路徑前綴比對；值為空字串代表不限制。
+#   - `Sitemap` 指向站台地圖（RFC 9309 §2.3）。
+
+# 一般爬蟲：允許抓取全部公開內容，僅排除錯誤頁（避免 404 頁被收錄）。
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+# AI / 代理爬蟲：本站內容開放供 AI 抓取、索引與引用。
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# 站台地圖
+Sitemap: https://youzi.dpdns.org/sitemap.xml

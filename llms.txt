@@ -1,0 +1,33 @@
+# 柚子Youzi (Youzi9601)
+
+> 柚子Youzi 的個人資訊網站，展示個人作品、部落格、社群等相關訊息。
+
+## 首頁
+
+- [Youzi9601 的Github專頁](/): 柚子Youzi 的個人資訊網站，展示個人作品、部落格、社群等相關訊息。
+
+## 部落格
+
+- [部落格](/blog): 分享技術文章、專案心得和生活感悟。
+- [生日快樂！柚子Youzi！](/blog/post/2025-happy-birthday-youzi): 2025-01-26
+- [秋季雜談：感受不到涼意。](/blog/post/20251118-talk): 2025-11-18
+- [七、八月雜談：So Hot.](/blog/post/20250812-so-hot): 2025-08-12
+- [忙著東奔西跑。](/blog/post/20250628-busy-to-running): 2025-06-28
+- [你好世界](/blog/post/hello-world): 2025-01-22
+- [\[重要\] 社群規定 ](/blog/post/community-rules): 2025-01-23
+- [六月雜談：好忙好忙的計劃](/blog/post/20250608-Very-Busy-Planning): 2025-06-08
+- [五月雜談：為何要製作 Discord 機器人](/blog/post/20250509-Why-made-discord-bot): 2025-05-09
+- [\[網站架構\] 導覽](/blog/post/website-map): 2025-03-27
+- [花了一天的時間自動更新我的網頁依賴的套件](/blog/post/20250320-spend-one-day-to-update-packages): 2025-03-20
+- [部落格文章字型測試](/blog/post/blog-blockcontent-test): 2025-02-05
+
+## 服務狀態
+
+- [服務狀態](/status): 所有服務的即時可用性狀態
+
+## 語言
+
+本站支援以下語言（以 `?lang=` 查詢參數切換）：en-US、ja-JP、ko-KR、zh-CN、zh-TW。
+
+> 代理可以帶上 `Accept: text/markdown` 取得乾淨的 Markdown 版本，
+> 內容由 Cloudflare 邊緣的 markdown-for-agents Worker 產生。
